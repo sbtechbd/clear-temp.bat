@@ -1,15 +1,15 @@
 # clear-temp.bat
 
 
-@echo off
-@break off
-@title Cleaner
-@color 0a
-@cls
-%SystemRoot%\explorer.exe "C:\Documents and Settings\"%USERNAME%"\Recent"
-%SystemRoot%\explorer.exe "C:\Documents and Settings\"%USERNAME%"\Local Settings\Temp
-%SystemRoot%\explorer.exe %SystemRoot%\Prefetch
-%SystemRoot%\explorer.exe %SystemRoot%\Temp
-echo "All Directory Opened Successfully!"
-exit
-C:\$Recycle.Bin
+@echo off<br>
+@break off<br>
+@title Cleaner<br>
+@color 0a<br>
+@cls<br>
+%SystemRoot%\explorer.exe "C:\Documents and Settings\"%USERNAME%"\Recent"<br>
+%SystemRoot%\explorer.exe "C:\Documents and Settings\"%USERNAME%"\Local Settings\Temp<br>
+%SystemRoot%\explorer.exe %SystemRoot%\Prefetch<br>
+%SystemRoot%\explorer.exe %SystemRoot%\Temp<br>
+echo "All Directory Opened Successfully!"<br>
+exit<br>
+C:\$Recycle.Bin<br>
